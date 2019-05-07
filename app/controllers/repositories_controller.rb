@@ -17,7 +17,7 @@ class RepositoriesController < ApplicationController
     @results = body_hash['items']
 
      render :search
-    end	  
-  end
+  end	  
+
 
 end
